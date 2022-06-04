@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+    background-color: rgb(239, 241, 243);
+}
+
+.row {
+    margin-bottom: 4px;
+}
+
+.input {
+    width: 40px;
+    height: 40px;
+    font-size: 36px;
+    text-align: center;
+    align-items: center;
+}
+
+.buttons {
+    margin-top: 15px;
+}
+
+.button:not(:last-child) {
+margin-right: 50px;
+}
+
+.button {
+    height: 35px;
+    width: 100px;
+    background-color: rgb(139, 140, 141);
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button:active {
+    box-shadow: 0px 0px 3px 0px rgb(31, 31, 32);
+}
